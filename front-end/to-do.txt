@@ -1,0 +1,7 @@
+1 - Construir a API ✅
+2 - Criar conexão com o BD (fazer nosso banco de dados consumir essa API) ✅
+3 - Conectar o Front com o Back ✅
+4 - Criar Lógica do Player ✅
+
+5 - Trazer o projeto pro GitHub
+6 - Deploy
