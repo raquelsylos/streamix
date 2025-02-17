@@ -10,6 +10,7 @@ import { db } from "./connect.js";
 import path from "path";
 
 const __dirname = path.resolve();
+
 const app = express();
 const PORT = 3001;
 
@@ -17,7 +18,7 @@ app.use(cors());
 // app.use(express.json());
 
 app.get("/api/", (request, response) => {
-  response.send();
+  response.send("Trabalhando com os endpoints '/artists' e '/songs'");
 });
 
 app.get("/api/artists", async (request, response) => {
